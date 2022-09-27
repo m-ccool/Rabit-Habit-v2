@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html class="scrollbar-hidden" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>rabit_habit</title>
+    <link rel="icon" type="image/svg+xml" sizes="151x150" href="assets/img/rabbit.svg">
+    <link rel="icon" type="image/svg+xml" sizes="151x150" href="assets/img/rabbit.svg">
+    <link rel="icon" type="image/svg+xml" sizes="151x150" href="assets/img/rabbit.svg">
+    <link rel="icon" type="image/svg+xml" sizes="151x150" href="assets/img/rabbit.svg">
+    <link rel="icon" type="image/svg+xml" sizes="151x150" href="assets/img/rabbit.svg">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dongle&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Giga&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="scrollbar-hidden" style="/*overflow: hidden;*//*margin: 0;*/font-family: 'Montserrat';/*font-size: var(--bs-body-font-size);*//*font-weight: var(--bs-body-font-weight);*//*line-height: var(--bs-body-line-height);*/color: var(--white);background-color: var(--black);-webkit-text-size-adjust: 100%;-webkit-tap-highlight-color: transparent;">
+    <nav class="navbar navbar-light navbar-expand-md text-center">
+        <div class="container-fluid"><a class="navbar-brand font-gradient h" id="navbar-brand" href="#">RABIT HABIT</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"><img src="assets/img/menu.svg"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav text-end ms-auto">
+                    <li class="nav-item d-flex justify-content-center"><a class="nav-link active" href="index.html">home</a></li>
+                    <li class="nav-item d-flex justify-content-center align-items-lg-center"><a class="nav-link active" href="#">about &amp; dev</a></li>
+                    <li class="nav-item d-flex d-sm-flex justify-content-center justify-content-sm-center"><a class="nav-link active" href="#"><img class="nav-bunny" src="assets/img/rabbit.svg">&nbsp;</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav><!-- Start: home -->
+    <div class="scrollbar-hidden">
+        <!-- Start: homepage-row -->
+        <div class="row g-0">
+            <!-- Start: active-tasks-col -->
+            <div class="col">
+                <h1 id="active-tasks-heading-1" class="heading">active tasks</h1>
+                <div id="task-window" class="window-frame" style="/*box-shadow: 0px 5px 25px rgb(0,0,0,.5);*/"><button class="btn active new-task-button" id="task-button" type="button" data-bs-target="#modal-new-task" data-bs-toggle="modal">+task</button>
+                    <div id="active-tasks-list" class="active-tasks-list">
+                        <div id="task-1" class="task-item">
+                            <div class="row" id="task-title-menu-3">
+                                <div class="col task-title-menu" id="task-title-menu-4"><img class="check-icon unchecked-icon" src="assets/img/checkmark-white.svg"><label class="form-label task-label" id="active-task-4">task 1</label><button class="btn elipse-icon elipse-button" type="button" data-bs-target="#modal-edit-task" data-bs-toggle="modal"><img class="elipse-icon" src="assets/img/elipse.svg"></button></div>
+                            </div>
+                            <div class="progress task-1-bar" id="task-1-bar-1">
+                                <div class="progress-bar progress-bar-animated progress-bar-1" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" id="progress-bar-1" style="width: 50%;"><span class="visually-hidden">50%</span></div>
+                            </div>
+                            <div id="subtask-list-1" class="subtask-list">
+                                <div id="subtask-3" class="subtask-1"><button class="task-button task-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><label class="form-label subtask-label" id="active-task-7">task 1</label></div>
+                                <div id="subtask-4" class="subtask-1"><button class="task-button-1 task-button complete-task"><img class="check-icon checked-icon" src="assets/img/checkmark-black.svg"></button><label class="form-label subtask-label task-label-complete" id="active-task-8">task 1</label></div>
+                            </div>
+                            <div class="sub-task-list"></div>
+                        </div>
+                        <div id="task-2" class="task-item">
+                            <div class="row" id="task-title-menu-5">
+                                <div class="col task-title-menu" id="task-title-menu-6"><img class="check-icon" src="assets/img/checkmark-white.svg"><label class="form-label task-label task-label-complete" id="active-task-9">task 2</label><button class="btn elipse-icon elipse-button" type="button" data-bs-target="#modal-edit-task" data-bs-toggle="modal"><img class="elipse-icon" src="assets/img/elipse.svg"></button></div>
+                            </div>
+                            <div class="progress task-2-bar" id="task-2-bar-1">
+                                <div class="progress-bar progress-bar-animated progress-bar-2" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="visually-hidden">100%</span></div>
+                            </div>
+                            <div id="subtask-list-2" class="subtask-list">
+                                <div id="subtask-5" class="subtask-1"><button class="active task-button task-button-2 complete-task"><img class="check-icon" src="assets/img/checkmark-black.svg"></button><label class="form-label subtask-label task-label-complete" id="active-task-10">task 2</label></div>
+                                <div id="subtask-6" class="subtask-1"><button class="btn task-button task-button-2 complete-task"><img class="check-icon checked-icon" src="assets/img/checkmark-black.svg"></button><label class="form-label subtask-label task-label-complete" id="active-task-11">task 2</label></div>
+                            </div>
+                            <div class="sub-task-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End: active-tasks-col -->
+            <!-- Start: calender-col -->
+            <div class="col">
+                <div class="d-flex flex-column align-items-center flex-sm-row badge-frame" style="box-shadow: inset 0px 0px 25px rgb(0,0,0,.25);">
+                    <div class="d-flex d-sm-inline badge-group"><img id="endure-badge" class="badge-icon" src="assets/img/endure.svg"><img id="heart-badge" class="badge-icon" src="assets/img/heart.svg"><img id="stoic-badge" class="badge-icon" src="assets/img/stoic.svg"><img id="valor-badge" class="badge-icon" src="assets/img/valor.svg"></div><span class="d-flex align-items-xl-center user-name" id="user-name">@user</span>
+                </div>
+                <div id="calender-window" class="window-frame calender"><span id="date" class="date-h h">sept 6, 2022</span>
+                    <div class="justify-content-evenly weekday-group" id="weekday-group"><button class="btn day-button day-button-sun" type="button">S</button><button class="btn day-button day-button-mon" type="button">M</button><button class="btn day-button day-button-tue today-day" type="button">W</button><button class="btn day-button day-button-thu" type="button">T</button><button class="btn day-button day-button-fri" type="button">F</button><button class="btn day-button day-button-sat" type="button">S</button></div>
+                </div>
+                <div class="d-flex d-md-flex justify-content-center justify-content-md-end" style="padding: 2rem calc(2rem + 2.5vw);height: 8rem;/*justify-content: flex-end!important;*/align-items: flex-end!important;display: flex!important;flex: 1 1 auto!important;flex-grow: 1!important;">
+                    <h1 class="text-center font-gradient h" id="h-total-carrots">carrots earned&nbsp;<span id="total-carrots-earned">2,324<img class="carrot-icon" src="assets/img/carrot.svg"></span></h1>
+                </div>
+            </div><!-- End: calender-col -->
+        </div><!-- End: homepage-row -->
+        <footer>
+            <div class="container text-center">
+                <div class="row g-0 d-flex flex-column flex-fill justify-content-evenly align-items-center flex-md-row" style="transition: margin 950ms ease;">
+                    <div class="col-auto d-flex flex-column justify-content-center align-items-center flex-sm-row justify-content-sm-center align-items-sm-center" style="/*white-space: nowrap;*/"><a class="footer-link" href="#">web design</a><a class="footer-link" href="#">game design</a><a class="footer-link" href="#">network engineer</a></div>
+                    <div class="col-auto d-flex flex-row justify-content-center align-items-center justify-content-xxl-center align-items-xxl-center" style="padding: 1rem;align-items: center!important;justify-content: center!important;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" class="text-light footer-icon">
+                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path>
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor" class="text-light footer-icon">
+                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M420.55,301.93a24,24,0,1,1,24-24,24,24,0,0,1-24,24m-265.1,0a24,24,0,1,1,24-24,24,24,0,0,1-24,24m273.7-144.48,47.94-83a10,10,0,1,0-17.27-10h0l-48.54,84.07a301.25,301.25,0,0,0-246.56,0L116.18,64.45a10,10,0,1,0-17.27,10h0l47.94,83C64.53,202.22,8.24,285.55,0,384H576c-8.24-98.45-64.54-181.78-146.85-226.55"></path>
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="-8 0 512 512" width="1em" height="1em" fill="currentColor" class="text-light footer-icon">
+                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+                        </svg></div>
+                </div><span><span style="color: rgb(108, 117, 125);">copyright © 2022 rabit habit</span><br></span>
+            </div>
+        </footer><!-- Start: Footer Dark -->
+        <footer class="text-center bg-dark"></footer><!-- End: Footer Dark -->
+    </div><!-- End: home -->
+    <!-- Start: modal-edit-task -->
+    <div class="modal fade scrollbar-hidden modal-new-task" role="dialog" tabindex="-1" id="modal-edit-task">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content window-frame modal-frame">
+                <div class="modal-header d-flex flex-shrink-1 justify-content-center"><span class="flex-fill h" id="add-new-task-h">edit task</span><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body visible scrollbar-hidden">
+                    <div id="new-tasks-form" class="new-tasks-form">
+                        <div style="height: 15rem;"></div>
+                        <div id="new-task-name" class="new-task-name new-task-input" style="/*margin-top: calc(30rem - 10vh);*/"><span class="p-task-form">task name</span><input type="text" id="form-task-name-1" class="text-input" placeholder="task 1" name="task-name"></div>
+                        <div id="new-task-repeat" class="new-task-repeat new-task-input"><span class="p-task-form">repeat</span>
+                            <div id="assign-repeat-weekday-group" class="weekday-group"><button class="day-button day-button-sun" type="button">S</button><button class="day-button day-button-mon" type="button">M</button><button class="day-button day-button-tue today-day" type="button">W</button><button class="active day-button day-button-thu" type="button">T</button><button class="day-button day-button-fri" type="button">F</button><button class="day-button day-button-sat" type="button">S</button></div>
+                        </div>
+                        <div id="new-task-color" class="new-task-color new-task-input"><span class="p-task-form">task color</span>
+                            <div class="justify-content-evenly task-color-button-group" id="task-color-button-group"><button id="task-color-button-1" class="task-color-button task-color-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><button id="task-color-button-2" class="task-color-button task-color-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><button id="task-color-button-3" class="task-color-button task-color-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><button id="task-color-button-4" class="task-color-button task-color-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><button class="active task-color-button task-color-button-1" id="task-color-button-5"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><button id="task-color-button-6" class="task-color-button task-color-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button></div>
+                        </div>
+                        <div id="new-task-subtasks" class="new-task-subtasks new-task-input">
+                            <div id="add-substask" class="add-substask"><span class="p-task-form">add sub task</span>
+                                <div id="added-subtask-list" class="added-subtask-list"><span id="new-subtask-1" class="new-subtask-list-p">add sub task</span><span id="new-subtask-3" class="new-subtask-list-p">add sub task</span></div>
+                                <div class="justify-content-xxl-center new-subtask" id="new-subtask-input"><input type="text" id="form-task-name" class="text-input" placeholder="example - drink water!" name="task-name"></div>
+                            </div><button class="btn submit-new-task-button new-task-button" id="submit-new-task-button" type="button" data-bs-target="#modal-task-added" data-bs-toggle="modal">+task</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- End: modal-edit-task -->
+    <!-- Start: modal-task-added -->
+    <div class="modal fade scrollbar-hidden" role="dialog" tabindex="-1" id="modal-task-added" style="z-index: 9999999;">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content window-frame">
+                <div><span id="task-added-alert-1" class="font-gradient" style="white-space: nowrap;font-weight: 600;text-align: center!important;/*margin-top: 0!important;*//*margin: 2rem;*/">new task added !</span></div>
+            </div>
+        </div>
+    </div><!-- End: modal-task-added -->
+    <!-- Start: modal-new-task -->
+    <div class="modal fade scrollbar-hidden modal-new-task" role="dialog" tabindex="-1" id="modal-new-task">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content window-frame">
+                <div class="modal-header"><span class="flex-fill h" id="add-new-task-h-1">add new task</span><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                <div class="modal-body visible scrollbar-hidden">
+                    <div style="height: 15rem;"></div>
+                    <div id="new-tasks-form-1" class="new-tasks-form">
+                        <div id="new-task-name-1" class="new-task-name new-task-input" style="/*margin-top: calc(30rem - 10vh);*/"><span class="p-task-form">task name</span><input type="text" id="form-task-name-2" class="text-input" placeholder="example - drink water!" name="task-name"></div>
+                        <div id="new-task-repeat-1" class="new-task-repeat new-task-input"><span class="p-task-form">repeat</span>
+                            <div id="assign-repeat-weekday-group-1" class="weekday-group"><button class="day-button day-button-sun" type="button">S</button><button class="day-button day-button-mon" type="button">M</button><button class="day-button day-button-tue today-day" type="button">W</button><button class="day-button day-button-thu" type="button">T</button><button class="day-button day-button-fri" type="button">F</button><button class="day-button day-button-sat" type="button">S</button></div>
+                        </div>
+                        <div id="new-task-color-1" class="new-task-color new-task-input"><span class="p-task-form">task color</span>
+                            <div class="justify-content-evenly task-color-button-group" id="task-color-button-group-1"><button id="task-color-button-7" class="task-color-button task-color-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><button id="task-color-button-8" class="task-color-button task-color-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><button id="task-color-button-9" class="task-color-button task-color-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><button id="task-color-button-10" class="task-color-button task-color-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><button class="active task-color-button task-color-button-1" id="task-color-button-11"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button><button id="task-color-button-12" class="task-color-button task-color-button-1"><img class="check-icon unchecked-icon" src="assets/img/checkmark-black.svg"></button></div>
+                        </div>
+                        <div id="new-task-subtasks-1" class="new-task-subtasks new-task-input">
+                            <div id="add-substask-1" class="add-substask"><span class="p-task-form">add sub task</span>
+                                <div id="added-subtask-list-1" class="added-subtask-list"><span id="new-subtask-2" class="new-subtask-list-p">add sub task</span><span id="new-subtask-4" class="new-subtask-list-p">add sub task</span></div>
+                                <div class="justify-content-xxl-center new-subtask" id="new-subtask-input-1"><input type="text" id="form-task-name-3" class="text-input" placeholder="example - drink water!" name="task-name"></div>
+                            </div><button class="btn submit-new-task-button new-task-button" id="submit-new-task-button-1" type="button" data-bs-target="#modal-task-added" data-bs-toggle="modal">+task</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- End: modal-new-task -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/task-functions.js"></script>
+</body>
+
+</html>
