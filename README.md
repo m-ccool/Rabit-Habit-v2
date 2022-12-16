@@ -27,7 +27,7 @@ Mobile-first Progressive Web Application for FITNDEX Mobile Application - Docume
 ## Guidelines
 
 ## Deploy Instructions
-Visit **[ fitndex.com ](https://fitndex.com)**
+Visit **[ m-ccool.github.io/Rabit-Habit-v2/ ]([https://fitndex.com](https://m-ccool.github.io/Rabit-Habit-v2/))**
 
 ## License
 ## Authors
