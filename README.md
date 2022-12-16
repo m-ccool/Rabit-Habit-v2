@@ -1,8 +1,6 @@
 # Rabit Habit v2
 Rabit Habit habbit tracking Progressive Web Application
 
-Mobile-first Progressive Web Application for FITNDEX Mobile Application - Documentation and Forms
-
 ## Table of Contents
 
 - [Description](#description)
